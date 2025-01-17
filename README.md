@@ -13,39 +13,3 @@ This project focuses on analyzing pizza sales data using MySQL. The goal is to e
 * Database Design: ER Model for representing relationships between tables (e.g., customers, orders, pizzas)
 * Querying: Complex SQL queries for analysis
 
-# 📦 Installation and Setup
-* Prerequisites
-Ensure you have MySQL installed on your system, along with MySQL Workbench or any other SQL client to manage your database.
-
-* Steps
-Clone the Repository
-
-* bash
-* Copy code
-git clone https://github.com/your-username/pizza-sales.git
-cd pizza-sales
-Create the Database
-
-* Open MySQL Workbench or your terminal and run the following commands:
-sql
-Copy code
-CREATE DATABASE pizza_sales;
-Import the Database Schema
-
-* Use the provided SQL file to create the necessary tables and relationships:
-bash
-Copy code
-mysql -u root -p pizza_sales < schema.sql
-Insert Sample Data
-  
-* You can insert sample data to populate your tables by running the following command:
-bash
-Copy code
-mysql -u root -p pizza_sales < insert_data.sql
-Querying the Database
-
-* After importing the schema and data, you can start querying the database using any SQL client. Some example queries include:
-sql
-Copy code
-SELECT * FROM sales;
-
